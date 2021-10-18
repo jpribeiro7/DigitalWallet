@@ -5,8 +5,7 @@ import { Container } from './styles'
 const Content: React.FC = ({ children }) => {
     return(
         <Container>
-            <ContentHeader> { children }</ContentHeader>
-            
+            {children}
         </Container>
     )
 }
